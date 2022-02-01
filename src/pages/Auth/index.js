@@ -76,7 +76,7 @@ export default class Auth extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Obtener una Api key.
+           Obtener una nueva clave ahora.
           </a>
         </p>
 
