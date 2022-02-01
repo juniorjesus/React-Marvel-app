@@ -46,7 +46,7 @@ export default class Auth extends Component {
       }
     } catch (error) {
       await KeyMarvel.logout();
-      const errorMsg = 'su clave publica o privada es invalida ';
+      const errorMsg = 'Your public or private key is invalid';
       this.setState({ errorMsg, loading: false });
     }
   };
@@ -76,7 +76,7 @@ export default class Auth extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Obtener una Api Key ahora.
+            Obtener una Api key.
           </a>
         </p>
 
@@ -100,7 +100,7 @@ export default class Auth extends Component {
           {errorMsg && <div>{errorMsg}</div>}
 
           <SubmitButton loading={loading ? 1 : 0}>
-            <span>{loading ? <FaSpinner /> : 'Autenticarse'}</span>
+            <span>{loading ? <FaSpinner /> : 'Authenticate'}</span>
           </SubmitButton>
         </Form>
       </Container>
