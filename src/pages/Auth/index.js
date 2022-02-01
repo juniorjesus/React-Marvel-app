@@ -46,7 +46,7 @@ export default class Auth extends Component {
       }
     } catch (error) {
       await KeyMarvel.logout();
-      const errorMsg = 'Your public or private key is invalid';
+      const errorMsg = 'su clave publica o privada es invalida ';
       this.setState({ errorMsg, loading: false });
     }
   };
