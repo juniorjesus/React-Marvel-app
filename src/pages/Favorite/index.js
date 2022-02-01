@@ -94,7 +94,7 @@ export default function Favorite() {
                   <MdAddShoppingCart size={16} color="#FFF" />
                   {amount[item.id] || 0}
                 </div>
-                <span>Add ao cart </span>
+                <span>Agregar al carrito </span>
               </div>
             </Button>
           </li>

@@ -27,7 +27,7 @@ function Cart({ cart, total, removeFromCart, updateAmount }) {
           <tr>
             <th />
             <th>Comics</th>
-            <th>Amount</th>
+            <th>Monto</th>
             <th>Subtotal</th>
             <th />
           </tr>
@@ -69,7 +69,7 @@ function Cart({ cart, total, removeFromCart, updateAmount }) {
         </tbody>
       </ComicTable>
       <footer>
-        <button type="button"> Checkout </button>
+        <button type="button"> Verifcar </button>
 
         <Total>
           <span>Total</span>

@@ -70,13 +70,13 @@ export default class Auth extends Component {
         </h1>
 
         <p>
-          Do not have an API key?
+          No tines una API key?
           <a
             href="https://www.marvel.com/signin?referer=https%3A%2F%2Fdeveloper.marvel.com%2Faccount"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Get a key now.
+            Obtener una Api Key ahora.
           </a>
         </p>
 

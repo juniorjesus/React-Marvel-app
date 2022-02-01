@@ -15,7 +15,7 @@ function Header({ cartLength, starLength }) {
 
       <Star to="/favorite">
         <div>
-          <strong>Favorites</strong>
+          <strong>Favoritos</strong>
           <span>{starLength}</span>
         </div>
         <MdStar size={36} />
@@ -23,7 +23,7 @@ function Header({ cartLength, starLength }) {
 
       <Cart to="/cart">
         <div>
-          <strong>Shopping cart</strong>
+          <strong>Carrito de Compras</strong>
           <span>{cartLength}</span>
         </div>
         <MdShoppingBasket size={36} />
