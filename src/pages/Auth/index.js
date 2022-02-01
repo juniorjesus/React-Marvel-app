@@ -100,7 +100,7 @@ export default class Auth extends Component {
           {errorMsg && <div>{errorMsg}</div>}
 
           <SubmitButton loading={loading ? 1 : 0}>
-            <span>{loading ? <FaSpinner /> : 'Authenticate'}</span>
+            <span>{loading ? <FaSpinner /> : 'Autenticarse'}</span>
           </SubmitButton>
         </Form>
       </Container>
